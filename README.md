@@ -16,4 +16,4 @@ GET `https://accounts.spotify.com/api/token`
 Add Token: src\app\services\spotify.service.ts line 18
 
 ## Screenshot
-[img]([img]https://i.imgur.com/YzgVfQc.gif[/img])
+![img](https://i.imgur.com/YzgVfQc.gif)
