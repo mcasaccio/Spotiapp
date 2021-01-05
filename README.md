@@ -1,27 +1,19 @@
 # Spotiapp
 
+The app allows you to view the latest albums, search and view the latest artist tracks and play them through the Spotify widget.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
-## Development server
+[Web API Spotify](https://developer.spotify.com/documentation/web-api/)
+[Dashboard Spotify API](https://developer.spotify.com/dashboard/applications)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Generate Token | BODY x-www-form-urlencode
+GET `https://accounts.spotify.com/api/token`
+`grant_type:client_credentials`
+`client_id:xxxxxxxxxxxxxxx`
+`client_secret:xxxxxxxxxxx`
 
-## Code scaffolding
+Add Token: src\app\services\spotify.service.ts line 18
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Screenshot
+[img]([img]https://i.imgur.com/YzgVfQc.gif[/img])
